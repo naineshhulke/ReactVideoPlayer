@@ -11,7 +11,7 @@ import Parallax from "components/Parallax/Parallax.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import styles from "assets/jss/material-kit-react/views/components.js";
 
-import SectionVideo from "./Sections/SectionVideo.js";
+import SectionVideo from "./SectionVideo.js";
 
 const useStyles = makeStyles(styles);
 
@@ -22,7 +22,7 @@ export default function Home(props) {
   return (
     <div>
       <Header
-        brand="MEDIDOC"
+        brand="CODEBLACK"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -32,14 +32,14 @@ export default function Home(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/bg4.jpg")}>
+      <Parallax image={require("assets/img/11.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Medidoc</h1>
+                <h1 className={classes.title}>CodeBlack</h1>
                 <h3 className={classes.subtitle}>
-                  Artificial Intelligence for medical Diagnosis and Prognosis
+                  Natural Language Processing Model to convert speech to text
                 </h3>
               </div>
             </GridItem>

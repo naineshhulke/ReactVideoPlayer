@@ -70,7 +70,7 @@ export default function Header(props) {
   });
   const brandComponent = (
     <Button className={classes.title} onClick={redirect}>
-      {"MEDIDOC"}
+      {"CODEBLACK"}
     </Button>
   );
   return (

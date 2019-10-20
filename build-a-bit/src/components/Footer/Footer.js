@@ -60,17 +60,6 @@ export default function Footer(props) {
             </ListItem>
           </List>
         </div>
-        <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} ,  {" "}
-          <Favorite className={classes.icon} /> made during{" "}
-          <a
-            href="https://www.facebook.com/igdtuwinnerve/"
-            className={aClasses}
-            target="_blank"
-          >
-            Innerve 2019
-          </a>{" "}
-        </div>
       </div>
     </footer>
   );

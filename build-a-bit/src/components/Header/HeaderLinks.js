@@ -29,37 +29,6 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          buttonText="Diagnosis"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent"
-          }}
-          buttonIcon={Apps}
-          dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              Eye Blindness
-            </Link>,
-            <Link to="/" className={classes.dropdownLink}>
-              Brain Tumour
-            </Link>,
-            <Link to="/" className={classes.dropdownLink}>
-              Skin Cancer
-            </Link>,
-          ]}
-        />
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="/auth"
-          color="transparent"
-          className={classes.navLink}
-        >
-          <LockOpenIcon /> Login/Signup
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
         <Button
           href="/feedback"
           color="transparent"
@@ -70,11 +39,6 @@ export default function HeaderLinks(props) {
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        {/*<Tooltip title="Delete">
-          <IconButton aria-label="Delete">
-            <DeleteIcon />
-          </IconButton>
-        </Tooltip>*/}
         <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
